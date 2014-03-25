@@ -1,0 +1,8 @@
+BundleName:logobundle_01.unity3d
+NumberOfAssets:2
+pre_cryWolfLogo.prefab
+pre_cryWolfLogo_url.prefab
+BundleName:android_logobundle_01.unity3d
+NumberOfAssets:2
+pre_cryWolfLogo.prefab
+pre_cryWolfLogo_url.prefab
