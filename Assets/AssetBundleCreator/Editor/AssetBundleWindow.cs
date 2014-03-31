@@ -35,7 +35,7 @@ public class AssetBundleWindow : EditorWindow
 {
     private AssetBundleContent contentWindow;
 
-    public string assetBundleFolderLocation = "/Data/AssetBundles/";
+	public string assetBundleFolderLocation = "/AssetBundleCreator/Demo/Data/AssetBundles/";
     public string exportLocation = "/../AssetBundles/";
     public string bundleFileExtension = ".unity3d";
 
@@ -241,11 +241,11 @@ public class AssetBundleWindow : EditorWindow
     }
     private static void ClearPreferences(AssetBundleWindow thisWindow)
     {
-        thisWindow.assetBundleFolderLocation = "/BundleCreator/Data/AssetBundles/";
-        thisWindow.exportLocation = "/../AssetBundles/";
-        thisWindow.bundleFileExtension = ".unity3d";
+		thisWindow.assetBundleFolderLocation = "/AssetBundleCreator/Demo/Data/AssetBundles/";
+		thisWindow.exportLocation = "/../AssetBundles/";
+		thisWindow.bundleFileExtension = ".unity3d";
 
-        thisWindow.optionalSettings = false;
+		thisWindow.optionalSettings = false;
         thisWindow.buildTarget = BuildTarget.WebPlayer;
 
         //BuildAssetBundleOptions
