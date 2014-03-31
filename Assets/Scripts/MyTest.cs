@@ -87,9 +87,17 @@ public class MyTest : MonoBehaviour {
 			assetsToLoad.Add(cryWolfLogo);
 		}
 		
+		if (GUILayout.Button("Res load"))
+		{
+			Object obj = Resources.Load("pre_cryWolfLogo");
+			GameObject gob = (GameObject)Instantiate(obj);
+
+		}
+
 		if (GUILayout.Button("Alert"))
 		{
 			ShowAlertBox("Alert", "Hello");
+			Debug.Log("Alert!");
 		}
 
 //		if (GUILayout.Button("Inst test"))

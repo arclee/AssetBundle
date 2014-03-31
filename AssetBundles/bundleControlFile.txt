@@ -2,5 +2,5 @@ BundleName:logobundle_01.unity3d
 VersionNumber:1
 
 BundleName:android_logobundle_01.unity3d
-VersionNumber:2
+VersionNumber:1
 

@@ -49,7 +49,7 @@ public class LoadAssetFromBundle : MonoBehaviour
 	private AssetBundleManager assetManager;
 
 	//寫到disk.
-	private bool LoadAndWriteToDisk = true;
+	private bool LoadAndWriteToDisk = false;
 
 
 	/// <summary>
@@ -199,7 +199,7 @@ public class LoadAssetFromBundle : MonoBehaviour
 				var  bytes =  www.bytes;
 				if (bytes != null)
 				{
-					File.WriteAllBytes(Application.dataPath + "/" + bundleName, bytes);
+				//	File.WriteAllBytes(Application.dataPath + "/" + bundleName, bytes);
 				}
 				else
 				{
